@@ -43,8 +43,21 @@ main * {
   max-width: var(--measure);
 }
 
-section {
-  border: 1px solid black;
+article {
+  position: relative;
+}
+
+article > * {
+  padding-bottom: var(--s0);
+}
+
+article:after {
+  background: var(--hard);
+  bottom: 0;
+  content: "";
+  height: var(--s-3);
+  position: absolute;
+  width: 100%;
 }
 
 footer {
