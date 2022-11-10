@@ -39,16 +39,16 @@ body {
   font-size: 100%;
 }
 
-main * {
-  max-width: var(--measure);
-}
-
 article {
   position: relative;
 }
 
 article > * {
   padding-bottom: var(--s0);
+}
+
+article > p {
+  text-align: center;
 }
 
 article:after {
@@ -58,6 +58,10 @@ article:after {
   height: var(--s-3);
   position: absolute;
   width: 100%;
+}
+
+img {
+  margin: auto;
 }
 
 footer {
@@ -88,7 +92,7 @@ footer::before {
 .center {
   box-sizing: content-box;
   margin-inline: auto;
-  max-inline-size: var(--measure);
+  max-inline-size: 80vw;
 }
 
 /* Utility */
