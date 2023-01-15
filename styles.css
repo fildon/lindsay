@@ -3,7 +3,7 @@
 /* Global */
 :root {
   /* spacing */
-  --measure: 60ch;
+  --measure: 100ch;
   --ratio: 1.5;
   --s-3: calc(var(--s-2) / var(--ratio));
   --s-2: calc(var(--s-1) / var(--ratio));
@@ -92,7 +92,7 @@ footer::before {
 .center {
   box-sizing: content-box;
   margin-inline: auto;
-  max-inline-size: 80vw;
+  max-inline-size: min(80vw, var(--measure));
 }
 
 /* Utility */
