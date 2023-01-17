@@ -1,4 +1,0 @@
-# TODO
-
-- Preview image
-- favicon
